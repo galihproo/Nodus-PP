@@ -146,11 +146,21 @@
 
 .home-section-2 {
     padding: 85px 0 90px;
+    position: relative;
+}
+.home-section-2 .bg-2-texture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 .home-section-2 .home-section-2-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
 }
 .home-section-2 .home-section-2-row .home-section-2-text {
     max-width: 400px;
@@ -188,10 +198,19 @@
 
 .home-section-3 {
     padding: 90px 0 80px;
+    position: relative;
+}
+.home-section-3 .bg-3-texture {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 .home-section-3 .card-section-3 {
     padding: 45px;
     position: relative;
+    z-index: 10;
 }
 .home-section-3 .card-section-3 .bg-card-section-3 {
     position: absolute;
@@ -288,4 +307,64 @@
     text-align: center;
     color: #163B63;
     margin: 0;
+}
+
+/* Home Section 4 */
+
+.home-section-4 {
+    overflow: hidden;
+}
+.home-section-4 .home-section-4-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    background-color: rgba(237, 237, 249, 0.63);
+    height: 640px;
+    position: relative;
+    transform: translateX(100px);
+    z-index: 10;
+}
+.home-section-4 .home-section-4-content .home-section-4-text .sub-heading {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #EE775B;
+}
+.home-section-4 .home-section-4-content .home-section-4-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #163B63;
+    margin: 15px 0 20px;
+    max-width: 400px;
+}
+.home-section-4 .home-section-4-content .home-section-4-text p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #757D95;
+    margin: 0;
+    max-width: 360px;
+}
+.home-section-4 .home-section-4-content .home-section-4-text .btn-link-grey {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #8D8CC4;
+    display: block;
+    width: 150px;
+    margin: 70px 0 35px;
+}
+.home-section-4 .home-section-4-content .home-section-4-text .socmed-links-group {
+    display: flex;
+    align-items: center;
+}
+.home-section-4 .home-section-4-content .home-section-4-text .socmed-links-group .btn-socmed-section-4 {
+    text-decoration: none !important;
+    margin: 0 8px;
+    display: block;
+}
+.home-section-4 .home-section-4-content .home-section-4-image { 
+    transform: translateY(60px);
 }
