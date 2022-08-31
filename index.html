@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nodus</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W6MQ4S2');</script>
+    <!-- End Google Tag Manager -->
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +23,11 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6MQ4S2"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Hero -->
     <section class="hero">
         <!-- Nav -->
@@ -26,21 +39,19 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <div class="navbar-links-group">
+                <div class="navbar-nav">
                     <a class="nav-link" href="#">Home</a>
                     <a class="nav-link" href="#">Contact</a>
                     <a class="nav-link" href="#">Our Blog</a>
                 </div>
-                <div class="navbar-cta-right">
-                    <a href="#" class="btn-notification">
-                        <img src="./assets/images/ic-bell.svg" alt="nodus">
-                    </a>
-                    <a href="#" class="btn-primary btn-nav-contact">
-                        <span>Contact Us To Get Started</span>
-                    </a>
-                </div>
             </div>
+            <div class="navbar-cta-right">
+                <a href="#" class="btn-notification">
+                    <img src="./assets/images/ic-bell.svg" alt="nodus">
+                </a>
+                <a href="#" class="btn-primary btn-nav-contact">
+                    <span>Contact Us To Get Started</span>
+                </a>
             </div>
         </nav>
         <!-- Nav END -->
@@ -85,7 +96,8 @@
 
     <!-- Home Section 2 -->
     <section class="home-section-2">
-        <img class="bg-2-texture" src="./assets/images/home-section-2-bg-texture.svg" alt="nodus">
+        <!-- <img class="bg-2-texture" src="./assets/images/home-section-2-bg-texture.svg" alt="nodus"> -->
+        <img src="./assets/images/home-bg-texture-top.svg" alt="nodus" class="bg-home-texture-top">
         <div class="container">
             <div class="home-section-2-row">
                 <div class="home-section-2-text">
@@ -105,7 +117,7 @@
 
     <!-- Home Section 3 -->
     <section class="home-section-3">
-        <img class="bg-3-texture" src="./assets/images/home-section-3-bg-texture.svg" alt="noduse">
+        <!-- <img class="bg-3-texture" src="./assets/images/home-section-3-bg-texture.svg" alt="noduse"> -->
         <div class="container">
             <div class="card-section-3">
                 <img class="bg-card-section-3" src="./assets/images/home-section-3-bg-desktop.svg" alt="nodus">
@@ -193,6 +205,190 @@
         </div>
     </section>
     <!-- Home Section 4 END -->
+
+    <!-- Home Section 5 -->
+    <section class="home-section-5">
+        <img src="./assets/images/home-bg-texture-mid.svg" alt="nodus" class="home-bg-texture-mid">
+        <div class="container">
+            <div class="home-section-5-content">
+                <div class="home-section-5-image">
+                    <img src="./assets/images/home-section-5-image.svg" alt="nodus">
+                </div>
+                <div class="home-section-5-text">
+                    <span class="sub-heading">Not just another ETL Platform</span>
+                    <h2>Skip the puzzle. Get your data without the technical know-how.</h2>
+                    <p>
+                        Scoping, building, and maintaining end-to-end data ingestion and activation can quickly become complex, expensive, time intensive, and difficult to staff. Nodus allows you to get all your data easily without the pressure or engineering expertise.
+                    </p>
+                    <a href="#" class="btn-link-grey">Learn more ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section 5 END -->
+
+    <!-- Home Section 6 -->
+    <section class="home-section-6">
+        <img src="./assets/images/home-section-6-bg.svg" alt="nodus" class="home-section-6-bg">
+        <div class="container">
+            <div class="home-section-6-row row">
+                <div class="col-12 col-md-6">
+                    <div class="home-section-6-text">
+                        <h2>Clean data.
+                            <span>Accessed via an intuitive UI.</span>
+                        </h2>
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-tab-link active" id="list-database-list" data-toggle="list" href="#list-database" role="tab" aria-controls="database">
+                                <img src="./assets/images/cube-1.svg" alt="nodus">
+                                <span>Drop to your database</span>
+                                <img src="./assets/images/home-section-6-arrow.svg" alt="noduse" class="arrow-list">
+                            </a>
+                            <a class="list-tab-link" id="list-visual-list" data-toggle="list" href="#list-visual" role="tab" aria-controls="visual">
+                                <img src="./assets/images/cube-2.svg" alt="nodus">
+                                <span>Plug in to data visualization</span>
+                                <img src="./assets/images/home-section-6-arrow.svg" alt="noduse" class="arrow-list">
+                            </a>
+                            <a class="list-tab-link" id="list-schedule-list" data-toggle="list" href="#list-schedule" role="tab" aria-controls="schedule">
+                                <img src="./assets/images/cube-2.svg" alt="nodus">
+                                <span>Easy reporting schedule</span>
+                                <img src="./assets/images/home-section-6-arrow.svg" alt="noduse" class="arrow-list">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="tab-content d-flex justify-content-end" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-database" role="tabpanel" aria-labelledby="list-database-list">
+                            <div class="card-tab-section-6">
+                                <img src="./assets/images/home-section-6-card-tab-bg.svg" alt="nodus" class="bg-card-tab-6">
+                                <img src="./assets/images/bracket-card-right.svg" alt="nodus" class="bracket-1">
+                                <img src="./assets/images/bracket-card-left.svg" alt="nodus" class="bracket-2">
+                                <div class="card-tab-6-content">
+                                    <h4>Drop to your database</h4>
+                                    <p>
+                                        Support teams wherever they are and <span>reduce the friction</span> that exists between managing multiple sources. Choose a destination for your data and go.
+                                    </p>
+                                    <img src="./assets/images/section-6-illust-1.svg" alt="nodus" class="card-tab-6-illust">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-visual" role="tabpanel" aria-labelledby="list-visual-list">
+                            <div class="card-tab-section-6">
+                                <img src="./assets/images/home-section-6-card-tab-bg.svg" alt="nodus" class="bg-card-tab-6">
+                                <img src="./assets/images/bracket-card-right.svg" alt="nodus" class="bracket-1">
+                                <img src="./assets/images/bracket-card-left.svg" alt="nodus" class="bracket-2">
+                                <div class="card-tab-6-content">
+                                    <h4>Plug-in to data visualization</h4>
+                                    <p>
+                                        Seamlessly connect a clean, transformed, and <span>secure datawarehouse</span> to your business intelligence systems to visualize and action on marketing insights.
+                                    </p>
+                                    <img src="./assets/images/section-6-illust-2.svg" alt="nodus" class="card-tab-6-illust">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-schedule" role="tabpanel" aria-labelledby="list-schedule-list">
+                            <div class="card-tab-section-6">
+                                <img src="./assets/images/home-section-6-card-tab-bg.svg" alt="nodus" class="bg-card-tab-6">
+                                <img src="./assets/images/bracket-card-right.svg" alt="nodus" class="bracket-1">
+                                <img src="./assets/images/bracket-card-left.svg" alt="nodus" class="bracket-2">
+                                <div class="card-tab-6-content">
+                                    <h4>Easy reporting schedule</h4>
+                                    <p>
+                                        Easily set up processing to better manage your costs and establish refreshes to <span>match the frequency and time</span> at which you need access to your data.
+                                    </p>
+                                    <img src="./assets/images/section-6-illust-3.svg" alt="nodus" class="card-tab-6-illust">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section 6 END -->
+
+    <!-- Home Section 7 -->
+    <section class="home-section-7">
+        <img src="./assets/images/home-section-7-bg-texture.svg" alt="nodus" class="home-section-7-bg-texture">
+        <div class="home-section-7-content">
+            <img src="./assets/images/home-section-7-bg-illust.svg" alt="nodus" class="home-section-7-bg-illust">
+            <div class="container">
+                <div class="home-section-7-content-inner">
+                    <h2>Get a <span>best-in-class</span> marketing team too.</h2>
+                    <p>
+                        Our White-Glove Services team can set-up and manage your full paid media program if desired. We’ll serve as your marketing experts until you’re ready to take execution in-house.
+                    </p>
+                    <a href="#" class="btn-primary">
+                        <span>Contact Us To Get Started</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section 7 END -->
+
+    <!-- Home Newsletter -->
+    <section class="home-newsletter">
+        <img src="./assets/images/newsletter-nodus-logo.svg" alt="nodus" class="newsletter-nodus-logo">
+        <img src="./assets/images/home-newsletter-illust.svg" alt="nodus" class="home-newsletter-illust">
+        <div class="container">
+            <div class="home-newsletter-row">
+                <div class="home-newsletter-text">
+                    <h2>Sign-up for The Notice</h2>
+                    <p>Get industry updates, the newest case studies and digital marketing tips from our team twice a month.</p>
+                </div>
+                <div class="home-newsletter-form">
+                    <!-- Form Newsletter -->
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
+                    <script>
+                        hbspt.forms.create({
+                            region: "na1",
+                            portalId: "22576209",
+                            formId: "8f8ed2c2-ca78-483e-a315-58eb75050980",
+                            cssClass: "hubspot-form"
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Newsletter END -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="./assets/images/home-footer-bg.svg" alt="nodus" class="footer-bg">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-top-row">
+                    <a href="#" class="footer-logo">
+                        <img src="./assets/images/footer-logo.svg" alt="nodus">
+                    </a>
+                    <div class="footer-socmeds">
+                        <a href="#">
+                            <img src="./assets/images/ic-twitter-footer.svg" alt="nodus">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/ic-linkedin-footer.svg" alt="nodus">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/ic-instagram-footer.svg" alt="nodus">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/ic-facebook-footer.svg" alt="nodus">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Our Blog</a>
+                </div>
+                <p class="footer-copy">© 2022 Nodusmedia.io</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer END -->
+
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
