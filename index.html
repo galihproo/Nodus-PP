@@ -31,41 +31,41 @@
     <!-- Hero -->
     <section class="hero">
         <!-- Nav -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/images/nodus-logo-nav.svg" alt="nodus">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Contact</a>
-                    <a class="nav-link" href="#">Our Blog</a>
+        <div class="container-lg">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/nodus-logo-nav.svg" alt="nodus">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./assets/images/ic-navbar-toggle.svg" alt="nodus" class="navbar-toggle">
+                    <img src="./assets/images/ic-navbar-toggle-close.svg" alt="nodus" class="navbar-toggle-close">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Our Blog</a>
+                    </div>
                 </div>
-            </div>
-            <div class="navbar-cta-right">
-                <a href="#" class="btn-notification">
-                    <img src="./assets/images/ic-bell.svg" alt="nodus">
-                </a>
-                <a href="#" class="btn-primary btn-nav-contact">
-                    <span>Contact Us To Get Started</span>
-                </a>
-            </div>
-        </nav>
+                <div class="navbar-cta-right">
+                    <a href="#" class="btn-notification">
+                        <img src="./assets/images/ic-bell.svg" alt="nodus">
+                    </a>
+                    <a href="#" class="btn-primary btn-nav-contact">
+                        <span>Contact Us To Get Started</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
         <!-- Nav END -->
 
         <img class="bg-hero" src="./assets/images/bg-hero.svg" alt="nodus">
         <div class="hero-content">
-            <div class="container">
+            <div class="container-lg">
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="hero-text">
-                            <h1>
-                                The <span>no-code solution</span> to data infrastructure
-                                for digital marketing.
-                            </h1>
+                            <h1 id="hero-title"></h1>
                             <p>
                                 Accessible paid media integrations for savvy digital consumer brands.
                             </p>
@@ -98,7 +98,7 @@
     <section class="home-section-2">
         <!-- <img class="bg-2-texture" src="./assets/images/home-section-2-bg-texture.svg" alt="nodus"> -->
         <img src="./assets/images/home-bg-texture-top.svg" alt="nodus" class="bg-home-texture-top">
-        <div class="container">
+        <div class="container-lg">
             <div class="home-section-2-row">
                 <div class="home-section-2-text">
                     <span class="sub-heading">Simplify your workflow</span>
@@ -118,48 +118,60 @@
     <!-- Home Section 3 -->
     <section class="home-section-3">
         <!-- <img class="bg-3-texture" src="./assets/images/home-section-3-bg-texture.svg" alt="noduse"> -->
-        <div class="container">
+        <div class="container-xl">
             <div class="card-section-3">
-                <img class="bg-card-section-3" src="./assets/images/home-section-3-bg-desktop.svg" alt="nodus">
+                <img class="bg-card-section-3 d-none d-xl-block" src="./assets/images/home-section-3-bg-desktop.svg" alt="nodus">
+                <img class="bg-card-section-3 d-block d-xl-none" src="./assets/images/home-section-3-bg-tablet.svg" alt="nodus">
                 <div class="card-section-3-text">
                     <h2>A custom built all-in-one solution with the features you need.</h2>
-                    <a href="#" class="btn-primary">
+                    <a href="#" class="btn-primary d-none d-lg-flex">
                         <span>Contact Us To Get Started</span>
                     </a>
                 </div>
                 <div class="card-section-3-item-row">
-                    <div class="card-section-3-item">
-                        <div class="backdrop"></div>
-                        <div class="card-section-3-item-content">
-                            <img src="./assets/images/ic-section-3-1.svg" alt="nodus">
-                            <h3>EL Connectors</h3>
-                            <p>Seamless integration to existing paid media platforms</p>
+                    <div class="card-section-3-item-col">
+                        <div class="card-section-3-item">
+                            <div class="backdrop"></div>
+                            <div class="card-section-3-item-content">
+                                <img src="./assets/images/ic-section-3-1.svg" alt="nodus">
+                                <h3>EL Connectors</h3>
+                                <p>Seamless integration to existing paid media platforms</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-section-3-item">
-                        <div class="backdrop"></div>
-                        <div class="card-section-3-item-content">
-                            <img src="./assets/images/ic-section-3-2.svg" alt="nodus">
-                            <h3>Data Transformation</h3>
-                            <p>Accessible data contexutalized to marketing reporting</p>
+                    <div class="card-section-3-item-col">
+                        <div class="card-section-3-item">
+                            <div class="backdrop"></div>
+                            <div class="card-section-3-item-content">
+                                <img src="./assets/images/ic-section-3-2.svg" alt="nodus">
+                                <h3>Data Transformation</h3>
+                                <p>Accessible data contexutalized to marketing reporting</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-section-3-item">
-                        <div class="backdrop"></div>
-                        <div class="card-section-3-item-content">
-                            <img src="./assets/images/ic-section-3-3.svg" alt="nodus">
-                            <h3>Security & Maintenance</h3>
-                            <p>Ensure the protection and uptime of your data</p>
+                    <div class="card-section-3-item-col">
+                        <div class="card-section-3-item">
+                            <div class="backdrop"></div>
+                            <div class="card-section-3-item-content">
+                                <img src="./assets/images/ic-section-3-3.svg" alt="nodus">
+                                <h3>Security & Maintenance</h3>
+                                <p>Ensure the protection and uptime of your data</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-section-3-item">
-                        <div class="backdrop"></div>
-                        <div class="card-section-3-item-content">
-                            <img src="./assets/images/ic-section-3-4.svg" alt="nodus">
-                            <h3>Data Storage & Activation</h3>
-                            <p>We handle the infrastructure so you don't have to</p>
+                    <div class="card-section-3-item-col">
+                        <div class="card-section-3-item">
+                            <div class="backdrop"></div>
+                            <div class="card-section-3-item-content">
+                                <img src="./assets/images/ic-section-3-4.svg" alt="nodus">
+                                <h3>Data Storage & Activation</h3>
+                                <p>We handle the infrastructure so you don't have to</p>
+                            </div>
                         </div>
                     </div>
+                    <a href="#" class="btn-primary d-flex d-lg-none">
+                        <span>Contact Us To Get Started</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -168,7 +180,7 @@
 
     <!-- Home Section 4 -->
     <section class="home-section-4">
-        <div class="container">
+        <div class="container-lg">
             <div class="home-section-4-content">
                 <div class="home-section-4-text">
                     <span class="sub-heading">Plug and play integrations</span>
@@ -176,16 +188,36 @@
                     <p>
                         Set up your paid media integrations easily, whether you’re a full-stack developer or a marketing manager.
                     </p>
-                    <a href="#" class="btn-link-grey">Learn more ></a>
-                    <div class="socmed-links-group">
+                    <div class="socmed-links-group d-flex d-sm-none">
                         <a href="#" class="btn-socmed-section-4">
                             <img src="./assets/images/ic-twitter.svg" alt="nodus">
                         </a>
                         <a href="#" class="btn-socmed-section-4">
                             <img src="./assets/images/ic-pinterest.svg" alt="nodus">
                         </a>
+                        <a href="#" class="btn-socmed-section-4 mt-1">
+                            <img src="./assets/images/ic-google-platform.svg" alt="nodus">
+                        </a>
                         <a href="#" class="btn-socmed-section-4">
-                            <img src="./assets/images/ic-google-ads.svg" alt="nodus">
+                            <img src="./assets/images/ic-snapchat.svg" alt="nodus">
+                        </a>
+                        <a href="#" class="btn-socmed-section-4">
+                            <img src="./assets/images/ic-reddit.svg" alt="nodus">
+                        </a>
+                        <a href="#" class="btn-socmed-section-4">
+                            <img src="./assets/images/ic-apps-flyer.svg" alt="nodus">
+                        </a>
+                    </div>
+                    <a href="#" class="btn-link-grey">Learn more ></a>
+                    <div class="socmed-links-group d-none d-sm-flex">
+                        <a href="#" class="btn-socmed-section-4">
+                            <img src="./assets/images/ic-twitter.svg" alt="nodus">
+                        </a>
+                        <a href="#" class="btn-socmed-section-4">
+                            <img src="./assets/images/ic-pinterest.svg" alt="nodus">
+                        </a>
+                        <a href="#" class="btn-socmed-section-4 mt-1">
+                            <img src="./assets/images/ic-google-platform.svg" alt="nodus">
                         </a>
                         <a href="#" class="btn-socmed-section-4">
                             <img src="./assets/images/ic-snapchat.svg" alt="nodus">
@@ -209,7 +241,7 @@
     <!-- Home Section 5 -->
     <section class="home-section-5">
         <img src="./assets/images/home-bg-texture-mid.svg" alt="nodus" class="home-bg-texture-mid">
-        <div class="container">
+        <div class="container-lg">
             <div class="home-section-5-content">
                 <div class="home-section-5-image">
                     <img src="./assets/images/home-section-5-image.svg" alt="nodus">
@@ -230,9 +262,9 @@
     <!-- Home Section 6 -->
     <section class="home-section-6">
         <img src="./assets/images/home-section-6-bg.svg" alt="nodus" class="home-section-6-bg">
-        <div class="container">
+        <div class="container-lg">
             <div class="home-section-6-row row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6">
                     <div class="home-section-6-text">
                         <h2>Clean data.
                             <span>Accessed via an intuitive UI.</span>
@@ -256,13 +288,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="tab-content d-flex justify-content-end" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-database" role="tabpanel" aria-labelledby="list-database-list">
-                            <div class="card-tab-section-6">
-                                <img src="./assets/images/home-section-6-card-tab-bg.svg" alt="nodus" class="bg-card-tab-6">
-                                <img src="./assets/images/bracket-card-right.svg" alt="nodus" class="bracket-1">
-                                <img src="./assets/images/bracket-card-left.svg" alt="nodus" class="bracket-2">
+                <div class="col-12 col-lg-6">
+                    <div class="card-tab-section-6">
+                        <img src="./assets/images/home-section-6-card-tab-bg.svg" alt="nodus" class="bg-card-tab-6">
+                        <img src="./assets/images/bracket-card-right.svg" alt="nodus" class="bracket-1">
+                        <img src="./assets/images/bracket-card-left.svg" alt="nodus" class="bracket-2">
+                        <div class="tab-content d-flex justify-content-lg-end" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-database" role="tabpanel" aria-labelledby="list-database-list">
                                 <div class="card-tab-6-content">
                                     <h4>Drop to your database</h4>
                                     <p>
@@ -271,12 +303,7 @@
                                     <img src="./assets/images/section-6-illust-1.svg" alt="nodus" class="card-tab-6-illust">
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="list-visual" role="tabpanel" aria-labelledby="list-visual-list">
-                            <div class="card-tab-section-6">
-                                <img src="./assets/images/home-section-6-card-tab-bg.svg" alt="nodus" class="bg-card-tab-6">
-                                <img src="./assets/images/bracket-card-right.svg" alt="nodus" class="bracket-1">
-                                <img src="./assets/images/bracket-card-left.svg" alt="nodus" class="bracket-2">
+                            <div class="tab-pane fade" id="list-visual" role="tabpanel" aria-labelledby="list-visual-list">
                                 <div class="card-tab-6-content">
                                     <h4>Plug-in to data visualization</h4>
                                     <p>
@@ -285,16 +312,14 @@
                                     <img src="./assets/images/section-6-illust-2.svg" alt="nodus" class="card-tab-6-illust">
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="list-schedule" role="tabpanel" aria-labelledby="list-schedule-list">
-                            <div class="card-tab-section-6">
-                                <img src="./assets/images/home-section-6-card-tab-bg.svg" alt="nodus" class="bg-card-tab-6">
-                                <img src="./assets/images/bracket-card-right.svg" alt="nodus" class="bracket-1">
-                                <img src="./assets/images/bracket-card-left.svg" alt="nodus" class="bracket-2">
+                            <div class="tab-pane fade" id="list-schedule" role="tabpanel" aria-labelledby="list-schedule-list">
                                 <div class="card-tab-6-content">
                                     <h4>Easy reporting schedule</h4>
-                                    <p>
+                                    <p class="d-none d-sm-block">
                                         Easily set up processing to better manage your costs and establish refreshes <br> to <span>match the frequency and time</span> <br> at which you need access to your data.
+                                    </p>
+                                    <p class="d-block d-sm-none">
+                                        Easily set up processing to better manage your costs and establish refreshes <br> to <span>match the frequency and time</span> at which you need access to your data.
                                     </p>
                                     <img src="./assets/images/section-6-illust-3.svg" alt="nodus" class="card-tab-6-illust">
                                 </div>
@@ -311,8 +336,9 @@
     <section class="home-section-7">
         <img src="./assets/images/home-section-7-bg-texture.svg" alt="nodus" class="home-section-7-bg-texture">
         <div class="home-section-7-content">
-            <img src="./assets/images/home-section-7-bg-illust.svg" alt="nodus" class="home-section-7-bg-illust">
-            <div class="container">
+            <img src="./assets/images/home-section-7-bg-illust.svg" alt="nodus" class="home-section-7-bg-illust d-none d-sm-block">
+            <img src="./assets/images/section-7-bg-illust.svg" alt="nodus" class="home-section-7-bg-illust d-block d-sm-none">
+            <div class="container-lg">
                 <div class="home-section-7-content-inner">
                     <h2>Get a <span>best-in-class</span> marketing team too.</h2>
                     <p>
@@ -357,23 +383,23 @@
     <!-- Footer -->
     <footer class="footer">
         <img src="./assets/images/home-footer-bg.svg" alt="nodus" class="footer-bg">
-        <div class="container">
+        <div class="container-lg">
             <div class="footer-content">
                 <div class="footer-top-row">
                     <a href="#" class="footer-logo">
                         <img src="./assets/images/footer-logo.svg" alt="nodus">
                     </a>
                     <div class="footer-socmeds">
-                        <a href="#">
+                        <a href="https://twitter.com/nodus_io" target="_blank">
                             <img src="./assets/images/ic-twitter-footer.svg" alt="nodus">
                         </a>
-                        <a href="#">
+                        <a href="https://nodusmedia.io/" target="_blank">
                             <img src="./assets/images/ic-linkedin-footer.svg" alt="nodus">
                         </a>
-                        <a href="#">
+                        <a href="https://instagram.com/nodus" target="_blank">
                             <img src="./assets/images/ic-instagram-footer.svg" alt="nodus">
                         </a>
-                        <a href="#">
+                        <a href="https://facebook.com/nodus" target="_blank">
                             <img src="./assets/images/ic-facebook-footer.svg" alt="nodus">
                         </a>
                     </div>
@@ -381,7 +407,7 @@
                 <div class="footer-links">
                     <a href="#">Home</a>
                     <a href="#">Contact</a>
-                    <a href="#">Our Blog</a>
+                    <a href="https://medium.com/nodus-media" target="_blank">Our Blog</a>
                 </div>
                 <p class="footer-copy">© 2022 Nodusmedia.io</p>
             </div>
@@ -393,5 +419,24 @@
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- Typing Animation -->
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const instance = new TypeIt("#hero-title", {
+                strings: ["The <span>no-code solution</span> to data infrastructure for digital marketing."],
+                speed: 80,
+                loop: true
+            }).go();
+
+            setTimeout(() => {
+                instance.freeze();
+
+                setTimeout(() => {
+                    instance.unfreeze();
+                }, 3000);
+            }, 7000);
+        });
+    </script>
 </body>
 </html>
